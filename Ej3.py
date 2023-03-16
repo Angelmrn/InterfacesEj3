@@ -5,7 +5,7 @@ import tkinter as ttk
 
 raiz = Tk()
 raiz.title("Ejercicio 3")
-raiz.geometry("900x550")
+raiz.geometry("1255x530")
 
 
 #-----------Frame Principal-----------
@@ -16,7 +16,7 @@ principal.grid(column=0,row=1,sticky=(W))
 
 Fazul=ttk.Frame(raiz, bg="cyan4")
 Fazul.grid(column=0,row=0, sticky=(W))
-ttk.Label(Fazul,text="AQUI", anchor="w",width=150, font=(20),bg="cyan4",foreground="white").grid(column=0, row=0)
+ttk.Label(Fazul,text="SPAI 4.0", anchor="w",width=150, font=(10),bg="cyan4",foreground="white").grid(column=0, row=0)
 
 #-----------FrameIzq-----------
 Fizq=ttk.Frame(principal,background="black")
